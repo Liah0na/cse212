@@ -25,7 +25,7 @@ public class PriorityQueueTests
     [TestMethod]
     // Scenario: Add 3 items where the highest priority item is middle in the queue.
     // Expected Result: The item with the highest priority should be returned.
-    // Defect(s) Found: 
+    // Defect(s) Found: None. The code correctly identifies the highest priority item regardless of its position in the queue.
     public void TestPriorityQueue_2()
     {
         var priorityQueue = new PriorityQueue();
@@ -42,7 +42,7 @@ public class PriorityQueueTests
     [TestMethod]
     // Scenario: Add 5 items where the highest priority item is first in the queue.
     // Expected Result: The item with the highest priority should be returned.
-    // Defect(s) Found: 
+    // Defect(s) Found: None. The code correctly identifies the highest priority item regardless of its position in the queue.
     public void TestPriorityQueue_3()
     {
         var priorityQueue = new PriorityQueue();
